@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 1800px;
+}
+
+
+header{
+    height: 700px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+img{
+    height: 500px;
+    width: 40%;
+    padding-left: 30%;
+}
+
+nav{
+    height: 120px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    border-bottom: outset white;
+    position: sticky;
+    top: 0;
+}
+
+li{
+    display: inline-block;
+    width: 19%;
+    text-align: center;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul{
+    align-items: center;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center
+}
+
+.padre{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(0, 0, 0);
+    height: 35%;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.Ropa{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(99, 99, 99);
+    height: 95%;
+    width: 30%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.imagenropa{
+    width: 90%;
+    height: 65%;
+    padding-right: 30%;
+    padding-top: 10%;
+}
+
+h2{
+    color: rgb(255, 255, 255);  
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    align-items: flex-start;
+}
+
+p{
+    color: white;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 20px;
+    text-align: center  ;
+}
+
+button{
+    width: 50%;
+    height: 40px;
+    background-color: rgb(99, 99, 99);
+    color:white;
+    font-size:14px;
+    border-bottom: outset rgb(99, 99, 99);
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    position: absolute;
+    padding: 20px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-top: solid white;
+}
+
+.contenedor{
+    width: 90%;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col{
+    text-align: center;
+}
+
+.cat{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto{
+    color: white;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.derechodeautor{
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 1%;
+    padding-left: 1%;
+}
